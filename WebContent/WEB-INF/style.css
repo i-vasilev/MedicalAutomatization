@@ -1,0 +1,131 @@
+* {
+	font-family: Arial;
+}
+
+.header {
+	background-image:
+		url("${pageContext.request.contextPath}/images/header_back.png");
+	height: 100px;
+	font: 23pt Arial;
+	color: white;
+}
+
+.logo {
+	margin: 5px;
+	min-width: 90px;
+	min-height: 90px;
+	display: block;
+	float: left;
+	background: url("${pageContext.request.contextPath}/images/logo.png")
+		no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header_text {
+	padding-top: 15px;
+	max-width: 450px;
+}
+
+.form_login {
+	margin: 0 auto;
+	width: 300px;
+}
+
+input, select, button {
+	height: 40px;
+	font-size: 18pt;
+	background-color: #e2f8fb;
+	border: 1px solid #98d5dd;
+	width: 400px;
+}
+
+.input {
+	color: #7f7f7f;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.button {
+	background-color: #7ec4ce;
+	border: none;
+	font: 17pt Arial;
+}
+
+.menu {
+	margin-top: 1px;
+	background: url("${pageContext.request.contextPath}/images/bg_menu.png");
+	height: 39px;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding-left:
+}
+
+a.menu_item {
+	text-decoration: none;
+	color: white;
+	padding: 0.65em;
+	display: block;
+	border-right: 2px solid #98d5dd;
+}
+
+.menu ul li {
+	float: left;
+}
+
+.content_user {
+	margin-top: 10px;
+}
+
+.record {
+	margin-top: 30px;
+	box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
+	background-color: #eee;
+	line-height: 1.8;
+	border-radius: 5px;
+}
+
+.complaints {
+	border-top: solid #ccc 1px;
+}
+
+.receptionPatients {
+	margin: 5px;
+}
+
+.receptionPatients ul {
+	list-style: none;
+	padding-left: 10px;
+}
+
+.receptionPatients ul li a {
+	color: gray;
+	text-decoration: none;
+}
+
+.checkbox {
+	width: 15px;
+	height: 15px;
+}
+
+.logout {
+	text-align: right;
+}
+
+.errors {
+	color: red;
+}
+
+.checkbox {
+	width: auto;
+}
+
+.buttonLink {
+	width:auto;
+	
+}
